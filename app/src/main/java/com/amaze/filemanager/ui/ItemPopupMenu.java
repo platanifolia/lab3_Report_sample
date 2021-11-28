@@ -272,6 +272,12 @@ public class ItemPopupMenu extends PopupMenu implements PopupMenu.OnMenuItemClic
       case R.id.return_select:
         mainFragment.returnIntentResults(rowItem.generateBaseFile());
         return true;
+      case R.id.rename:
+        mainActivity.mainActivityHelper.renameFile(rowItem.generateBaseFile());
+        return true;
+      case R.id.copy_to:
+        mainActivity.mainActivityHelper.copyFile(rowItem.generateBaseFile());
+        return true;
     }
     return false;
   }

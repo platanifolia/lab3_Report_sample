@@ -29,6 +29,15 @@
                 android:scaleType="centerCrop"
                 android:fitsSystemWindows="true"
                 />
+            
+            <ImageView
+                android:layout_width="match_parent1"
+                android:layout_height="match_parent1"
+                android:src="@drawable/about_header1"
+                app:layout_collapseMode="parallax1"
+                android:scaleType="centerCrop"
+                android:fitsSystemWindows="true"
+                />
 
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolBar"
