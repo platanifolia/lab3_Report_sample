@@ -91,3 +91,13 @@ We strongly recommend using apk signed by us (either Play Store version or from 
 Help us improve Amaze File Manager
 简单测试git基础操作
 yahaiyou
+
+pip install --upgrade pip
+pip install --upgrade setuptools
+pip install --upgrade wheel
+pip install --upgrade twine
+pip install --upgrade requests
+pip install --upgrade pytest
+yarn
+echo "yarn install"
+qmake
