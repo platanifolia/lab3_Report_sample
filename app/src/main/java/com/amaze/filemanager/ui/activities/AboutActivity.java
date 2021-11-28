@@ -253,6 +253,19 @@ public class AboutActivity extends BasicActivity implements View.OnClickListener
       case R.id.relative_layout_donate:
         billing = new Billing(this);
         break;
+      
+      case R.id.relative_layout_share:
+        shareApp();
+        break;
+      
+      case R.id.relative_layout_feedback:
+        sendFeedback();
+        break;
+      
+      case R.id.relative_layout_donate_1:
+        billing.purchase(SKU_DONATE_1);
+        break;
+      
     }
   }
 
