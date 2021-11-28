@@ -13,7 +13,7 @@
         android:drawablePadding="10dp"
         android:foregroundGravity="center"
         android:gravity="center"
-        android:paddingVertical="13dp"
+        android:paddingVertical="20dp"
         android:paddingHorizontal="15dp"
         android:textColor="@color/accent_black"
         app:drawableStartCompat="@drawable/ic_google_logo"
