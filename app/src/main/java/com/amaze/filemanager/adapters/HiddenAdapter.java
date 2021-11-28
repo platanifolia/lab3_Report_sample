@@ -171,4 +171,14 @@ public class HiddenAdapter extends RecyclerView.Adapter<HiddenViewHolder> {
   public int getItemCount() {
     return hiddenFiles.size();
   }
+
+  public void updateList(ArrayList<HybridFile> hiddenFiles) {
+    this.hiddenFiles = hiddenFiles;
+    notifyDataSetChanged();
+  }
+
+  public void updateList(HybridFile file) {
+    hiddenFiles.add(file);
+    notifyDataSetChanged();
+  }
 }
