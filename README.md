@@ -86,4 +86,8 @@ We strongly recommend using apk signed by us (either Play Store version or from 
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
     You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
+Help us improve Amaze File Manager
+简单测试git基础操作
+yahaiyou
